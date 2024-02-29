@@ -2,20 +2,58 @@
 <html lang="en">
 <head>
     <title>Login</title>
+    <style>
+
+        .Background 
+        {
+            background-color: deepskyblue;
+        }
+        .HeaderStyle 
+        {
+            text-align: center;
+            font-family: Arial
+        }
+        .UsernameStyle
+        {
+            text-align: center; margin-bottom: 1rem;
+            font-family: Arial
+        }
+        .PasswordStyle
+        {
+            text-align: center; margin-bottom: 1rem;
+            font-family: Arial
+        }
+        .ButtonStyle
+        {
+            text-align: center; margin-bottom: 1rem;
+            font-family: Arial
+        }
+        .LoginButton
+        {
+            color: blue;
+            font-family: Arial
+        }
+        .RegisterButton
+        {
+            color: green;
+            font-family: Arial
+        }
+
+    </style>
 </head>
-    <body>
-        <h1>Login Page</h1>
-        <div>
+    <body class="Background">
+        <h1 class="HeaderStyle">Login Page</h1>
+        <div class="UsernameStyle">
             <input type="text" placeholder="Username">
         </div>
-        <div>
+        <div class="PasswordStyle">
             <input type="text" placeholder="Password">
         </div>
-        <div>
-            <button>
+        <div class="ButtonStyle">
+            <button class="LoginButton">
                 Login
             </button>
-            <button>
+            <button class="RegisterButton">
                 Register
             </button>
         </div>
