@@ -50,12 +50,22 @@
             <input type="text" placeholder="Password">
         </div>
         <div class="ButtonStyle">
-            <button class="LoginButton">
+            
+            <button class="LoginButton" id="btnlogin">
                 Login
             </button>
-            <button class="RegisterButton">
-                Register
-            </button>
+           <a href="register.html">
+               <button class="RegisterButton">
+                   Register
+               </button>
+           </a>
         </div>
     </body>
+    <script>
+        let buttonLogin = document.querySelector('#btnlogin');
+        buttonLogin.onclick = function () 
+        {
+            alert("Login Succesfully!")
+        }
+    </script>
 </html>
